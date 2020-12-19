@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.indoornavigation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.indoornavigation.WriteMessage" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.MapActivity" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.SearchForChat" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.ShowContent" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.SignIn" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.SignUp" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.ViewInbox" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.MainForm" >
+        </activity>
+        <activity android:name="com.example.indoornavigation.Welcome" >
+            
+        </activity>
+        <activity
+            android:name="com.example.indoornavigation.StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

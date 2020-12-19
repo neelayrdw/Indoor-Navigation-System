@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/mnu_Debug">
+	    <item android:id="@+id/mnu_DebugOn" android:title="Debug On"></item>
+	    <item android:id="@+id/mnu_debugOff" android:title="Debug Off"></item>
+    </group>
+    <group android:id="@+id/mnuMode">
+        <item android:id="@+id/Once" android:title="Once"></item>    
+        <item android:id="@+id/Continuous" android:title="Continuous"></item>
+    </group>
+     
+     
+      
+    
+
+</menu>

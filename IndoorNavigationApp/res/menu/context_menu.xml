@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/ctx_mnu_Source" android:title="Source"></item>
+    <item android:id="@+id/ctx_mnu_Dest" android:title="Destination"></item>
+    <item android:id="@+id/ctx_mnu_Cancel" android:title="Cancel"></item>
+    <item android:id="@+id/ctx_mnu_Clear" android:title="Clear Selection"></item>
+    
+
+</menu>
